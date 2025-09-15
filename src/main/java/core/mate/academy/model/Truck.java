@@ -8,8 +8,31 @@ public class Truck extends Machine {
     private String make;
     private String model;
     private String cargoTrailer;
-
     public Truck() {
+    }
+
+    public String getMake() {
+        return make;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getCargoTrailer() {
+        return cargoTrailer;
+    }
+
+    public void setCargoTrailer(String cargoTrailer) {
+        this.cargoTrailer = cargoTrailer;
     }
 
     @Override
