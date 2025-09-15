@@ -8,6 +8,7 @@ public class Truck extends Machine {
     private String make;
     private String model;
     private String cargoTrailer;
+
     public Truck() {
     }
 

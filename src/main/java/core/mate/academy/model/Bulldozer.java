@@ -8,6 +8,7 @@ public class Bulldozer extends Machine {
     private String make;
     private String model;
     private String bulldozerTrack;
+
     public Bulldozer() {
     }
 

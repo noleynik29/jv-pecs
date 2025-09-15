@@ -8,6 +8,7 @@ public class Excavator extends Machine {
     private String make;
     private String model;
     private String excavatorBucket;
+
     public Excavator() {
     }
 
